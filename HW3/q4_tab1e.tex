@@ -1,0 +1,39 @@
+\begin{center}
+\begin{threeparttable}\caption{\textbf{OLS regression with heteroskedastic standard error}}\label{q3tab1}
+\begin{tabular}{l*{7}{cc}}
+\toprule
+                    &\multicolumn{1}{c}{log(wage)}&\multicolumn{1}{c}{log(wage)}&\multicolumn{1}{c}{log(wage)}&\multicolumn{1}{c}{log(wage)}&\multicolumn{1}{c}{log(wage)}&\multicolumn{1}{c}{log(wage)}&\multicolumn{1}{c}{log(wage)}\\
+\hline
+years of education  &       0.060\sym{***}&       0.031\sym{***}&       0.034\sym{***}&       0.046\sym{***}&       0.046\sym{***}&       0.048\sym{***}&       0.049\sym{***}\\
+                    &     (0.006)         &     (0.007)         &     (0.007)         &     (0.008)         &     (0.008)         &     (0.008)         &     (0.008)         \\
+IQ score            &                     &       0.004\sym{***}&       0.005\sym{***}&       0.005\sym{***}&       0.005\sym{***}&       0.005\sym{***}&       0.003\sym{***}\\
+                    &                     &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         \\
+knowledge of world work score&                     &       0.010\sym{***}&       0.006\sym{***}&       0.006\sym{***}&       0.007\sym{***}&       0.006\sym{***}&       0.004\sym{*}  \\
+                    &                     &     (0.002)         &     (0.002)         &     (0.002)         &     (0.002)         &     (0.002)         &     (0.002)         \\
+age in years        &                     &                     &       0.017\sym{***}&       0.008         &       0.008         &       0.007         &       0.008         \\
+                    &                     &                     &     (0.005)         &     (0.005)         &     (0.005)         &     (0.005)         &     (0.005)         \\
+years of work experience&                     &                     &                     &       0.013\sym{***}&       0.013\sym{***}&       0.012\sym{***}&       0.012\sym{***}\\
+                    &                     &                     &                     &     (0.004)         &     (0.004)         &     (0.004)         &     (0.004)         \\
+average weekly hours&                     &                     &                     &                     &     --0.005\sym{**} &     --0.005\sym{***}&     --0.006\sym{***}\\
+                    &                     &                     &                     &                     &     (0.002)         &     (0.002)         &     (0.002)         \\
+=1 if married       &                     &                     &                     &                     &                     &       0.193\sym{***}&       0.200\sym{***}\\
+                    &                     &                     &                     &                     &                     &     (0.041)         &     (0.039)         \\
+=1 if black         &                     &                     &                     &                     &                     &                     &     --0.148\sym{***}\\
+                    &                     &                     &                     &                     &                     &                     &     (0.040)         \\
+=1 if live in south &                     &                     &                     &                     &                     &                     &     --0.086\sym{***}\\
+                    &                     &                     &                     &                     &                     &                     &     (0.028)         \\
+=1 if live in SMSA  &                     &                     &                     &                     &                     &                     &       0.174\sym{***}\\
+                    &                     &                     &                     &                     &                     &                     &     (0.027)         \\
+Constant            &       5.973\sym{***}&       5.563\sym{***}&       5.011\sym{***}&       5.012\sym{***}&       5.216\sym{***}&       5.086\sym{***}&       5.232\sym{***}\\
+                    &     (0.082)         &     (0.093)         &     (0.180)         &     (0.177)         &     (0.190)         &     (0.189)         &     (0.188)         \\
+\hline
+No. of Observations &         935         &         935         &         935         &         935         &         935         &         935         &         935         \\
+$R^2$               &       0.097         &       0.155         &       0.168         &       0.178         &       0.186         &       0.206         &       0.263         \\
+Adjusted $R^2$      &       0.096         &       0.152         &       0.164         &       0.174         &       0.181         &       0.200         &       0.255         \\
+\bottomrule
+\end{tabular}
+\begin{tablenote}
+\small{\textit{Notes:} {Standard errors in parentheses.\\* for p$<$0.1, ** for p$<$0.05, and *** for p$<$0.01.}
+\end{tablenote}
+\end{threeparttable}
+\end{center}

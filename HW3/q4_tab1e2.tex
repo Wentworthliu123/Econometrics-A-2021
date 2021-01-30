@@ -1,0 +1,37 @@
+\begin{center}
+\begin{threeparttable}\caption{\textbf{OLS regression with heteroskedastic standard error}}\label{q3tab1}
+\begin{tabular}{l*{2}{cc}}
+\toprule
+                    &\multicolumn{1}{c}{Married}&\multicolumn{1}{c}{Unmerried}\\
+\hline
+years of education  &       0.052\sym{***}&       0.032         \\
+                    &     (0.008)         &     (0.029)         \\
+IQ score            &       0.003\sym{***}&       0.004         \\
+                    &     (0.001)         &     (0.003)         \\
+knowledge of world work score&       0.004\sym{*}  &       0.002         \\
+                    &     (0.002)         &     (0.007)         \\
+age in years        &       0.008         &       0.005         \\
+                    &     (0.006)         &     (0.016)         \\
+years of work experience&       0.013\sym{***}&       0.008         \\
+                    &     (0.004)         &     (0.013)         \\
+average weekly hours&     --0.006\sym{***}&     --0.009\sym{*}  \\
+                    &     (0.002)         &     (0.005)         \\
+=1 if black         &     --0.131\sym{***}&     --0.244\sym{**} \\
+                    &     (0.044)         &     (0.105)         \\
+=1 if live in south &     --0.086\sym{***}&     --0.113         \\
+                    &     (0.030)         &     (0.082)         \\
+=1 if live in SMSA  &       0.164\sym{***}&       0.255\sym{***}\\
+                    &     (0.028)         &     (0.094)         \\
+Constant            &       5.363\sym{***}&       5.683\sym{***}\\
+                    &     (0.200)         &     (0.505)         \\
+\hline
+No. of Observations &         835         &         100         \\
+$R^2$               &       0.249         &       0.251         \\
+Adjusted $R^2$      &       0.241         &       0.176         \\
+\bottomrule
+\end{tabular}
+\begin{tablenote}
+\small{\textit{Notes:} {Standard errors in parentheses.\\* for p$<$0.1, ** for p$<$0.05, and *** for p$<$0.01.}
+\end{tablenote}
+\end{threeparttable}
+\end{center}
